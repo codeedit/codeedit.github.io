@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Edit Feedback Form</title>
+  <link rel="stylesheet" type="text/css" href="css/feedback-form.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+</head>
+<body class="ss-base-body" dir="ltr" itemscope itemtype="http://schema.org/CreativeWork/FormObject"><meta itemprop="name" content="Code Edit Beta">
+<center>
+
+<div class="ss-form-container">
+
+<div class="ss-form">
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='feedback-done.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/1pqHRnY04who4l7MTuQG_rOjaY0RYjV9OVhx3Kj2WGbw/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+
+
+<input type="email" name="entry.1132109886" value="" class="ss-q-short text" id="entry_1132109886" dir="auto" aria-label="Your Email:  Must be a valid email address" aria-required="true" required="" title="Must be a valid email address" placeholder="youremail@example.com">
+
+<br><br>
+<textarea name="entry.1144174538" rows="13" cols="0" class="ss-q-long text" id="entry_1144174538" dir="auto" aria-label="Your Message:  " aria-required="true" required="" placeholder="What do you want us to know?"></textarea>
+<br><br>
+<input type="submit" name="submit" value="Send Feedback" id="ss-submit" class="button">
+
+
+<script type="text/javascript">
+
+      (function() {
+var divs = document.getElementById('ss-form').
+getElementsByTagName('div');
+var numDivs = divs.length;
+for (var j = 0; j < numDivs; j++) {
+if (divs[j].className == 'errorbox-bad') {
+divs[j].lastChild.firstChild.lastChild.focus();
+return;
+}
+}
+for (var i = 0; i < numDivs; i++) {
+var div = divs[i];
+if (div.className == 'ss-form-entry' &&
+div.firstChild &&
+div.firstChild.className == 'ss-q-title') {
+div.lastChild.focus();
+return;
+}
+}
+})();
+      </script>
+  </div>
+    </center>
+</body>
+</html>

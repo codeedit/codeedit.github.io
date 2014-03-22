@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Scada:400,700);
+
+body {
+  background: #f8f6f2;
+  color: #66595c;
+}
+.text {
+  background-position: 100% 50%;
+    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 2px 0px inset;
+    color: #66595c;
+    min-height: 34px;
+    text-decoration: none solid rgb(51, 51, 51);
+    vertical-align: middle;
+    width: 40%;
+    background: rgb(255, 255, 255) none no-repeat scroll 100% 50% / auto padding-box border-box;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    font-family: 'Scada', bold 14px/0px 'Lucida Grande', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: .7em .5em;
+}
+.text:focus {
+    outline: none;
+    border: 1px solid #808080;
+    color: #66595c;
+}
+
+.button { /* alt blue color for button can be found in path css/form.css */
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 41.5%;
+    align-items: flex-start;
+    background: #68a672 linear-gradient(#68a672, #518a5a) repeat-x scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid #487a50;
+    border-radius: 4px;
+    font-family: 'Scada', bold 14px/0px 'Lucida Grande', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0px 0px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 1.2em 1em;
+}/*#INPUT_1*/
+
+.button:hover{
+  background:#518a5a;
+}
+.button:active {
+  background:#3f6a45;
+}
+.done-text {
+  color:#68a672; /* alt default blue color #0099cc or atom green #66a470 */
+  font: bold 16px/0px 'Lucida Grande';
+  padding-top: 1em;
+}
+.header {
+  background: #efeae1;
+}
+.headerOne {
+  font-size: 2em;
+  color: #66595c; /* #0099cc */
+  margin-top: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.footer {
+  background: #efeae1;
+  padding: 1em;
+  position : absolute;
+  bottom : 0;
+  width: 100%;
+}
+a{
+  color: #4183c4;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+a:active {
+  color: #3269a0;
+  text-decoration: underline;
+}
