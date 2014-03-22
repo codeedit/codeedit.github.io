@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Scada:400,700);
+
+body {
+  font-family: "Helvetica Neue", Helvetica, arial, 'Lucida Grande', sans-serif, 'Scada';
+  background:#f8f6f2;
+  color: #55492e;
+}
+a{
+  color: #4183c4;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+a:active {
+  color: #3269a0;
+  text-decoration: underline;
+}
+.headerOne {
+  font-size: 4em;
+  color: #333333; /* #0099cc */
+  margin-top: 0;
+  padding-top: .5em;
+}
+.tagText {
+  color: #808080;
+  padding-bottom: 3em;
+}
+.header {
+  background: #efeae1;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+p {
+  line-height: 1.6;
+  font-size: 1.1em;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+li {
+  padding-bottom: 1em;
+  font-size: 1.1em;
+}
+hr.hline {
+    border: 0;
+    height: 5em;
+    background: transparent;
+    width: 90%;
+}
+.footer {
+  background: #efeae1;
+  padding: 1em;
+}
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: .1em solid transparent;
+	border-right: .1em solid transparent;
+
+	border-bottom: .1em solid #66595c;
+}
+a.topLink {
+  text-decoration:none;
+  color: #66595c;
+}
